@@ -1,5 +1,5 @@
 {
-  "name": "dnd-becmi",
+  "name": "dndbecmi",
   "version": "1.0.0",
   "description": "Unofficial FVTT implementation of the classic RPG.",
   "private": true,
@@ -11,12 +11,15 @@
   "author": "Nekohime Musou",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NekohimeMusou/dnd-becmi"
+    "url": "git+https://github.com/NekohimeMusou/dndbecmi"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/jquery": "^3.5.29",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
     "copyfiles": "^2.4.1",
-    "typescript": ">=5.3.3"
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   }
 }

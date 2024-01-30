@@ -228,18 +228,18 @@
 }
 
 /* Styles limited to D&D sheets */
-/* .dnd-becmi { /*
+/* .dndbecmi { /*
   /* ----------------------------------------- */
   /*  Items Lists                              */
   /* ----------------------------------------- */
   /* Example style for Boilerplate (can be removed if not needed) */
 /*} */
 
-.dnd-becmi .item-form {
+.dndbecmi .item-form {
   font-family: "Roboto", sans-serif;
 }
 
-.dnd-becmi .sheet-header {
+.dndbecmi .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 auto;
   flex: 0 auto;
@@ -259,7 +259,7 @@
   margin-bottom: 10px;
 }
 
-.dnd-becmi .sheet-header .profile-img {
+.dndbecmi .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
   flex: 0 0 100px;
@@ -267,50 +267,50 @@
   margin-right: 10px;
 }
 
-.dnd-becmi .sheet-header .header-fields {
+.dndbecmi .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.dnd-becmi .sheet-header h1.charname {
+.dndbecmi .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
 
-.dnd-becmi .sheet-header h1.charname input {
+.dndbecmi .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-.dnd-becmi .sheet-tabs {
+.dndbecmi .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.dnd-becmi .sheet-body,
-.dnd-becmi .sheet-body .tab,
-.dnd-becmi .sheet-body .tab .editor {
+.dndbecmi .sheet-body,
+.dndbecmi .sheet-body .tab,
+.dndbecmi .sheet-body .tab .editor {
   height: 100%;
 }
 
-.dnd-becmi .tox .tox-editor-container {
+.dndbecmi .tox .tox-editor-container {
   background: #fff;
 }
 
-.dnd-becmi .tox .tox-edit-area {
+.dndbecmi .tox .tox-edit-area {
   padding: 0 8px;
 }
 
-.dnd-becmi .resource-label {
+.dndbecmi .resource-label {
   font-weight: bold;
 }
 
-.dnd-becmi .items-header {
+.dndbecmi .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -322,12 +322,12 @@
   font-weight: bold;
 }
 
-.dnd-becmi .items-header > * {
+.dndbecmi .items-header > * {
   font-size: 14px;
   text-align: center;
 }
 
-.dnd-becmi .items-header .item-name {
+.dndbecmi .items-header .item-name {
   font-weight: bold;
   padding-left: 5px;
   text-align: left;
@@ -336,7 +336,7 @@
   display: flex;
 }
 
-.dnd-becmi .items-list {
+.dndbecmi .items-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -345,13 +345,13 @@
   color: #444;
 }
 
-.dnd-becmi .items-list .item-list {
+.dndbecmi .items-list .item-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.dnd-becmi .items-list .item-name {
+.dndbecmi .items-list .item-name {
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
@@ -367,13 +367,13 @@
   display: flex;
 }
 
-.dnd-becmi .items-list .item-name h3, .dnd-becmi .items-list .item-name h4 {
+.dndbecmi .items-list .item-name h3, .dndbecmi .items-list .item-name h4 {
   margin: 0;
   white-space: nowrap;
   overflow-x: hidden;
 }
 
-.dnd-becmi .items-list .item-controls {
+.dndbecmi .items-list .item-controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,13 +385,13 @@
   justify-content: flex-end;
 }
 
-.dnd-becmi .items-list .item-controls a {
+.dndbecmi .items-list .item-controls a {
   font-size: 12px;
   text-align: center;
   margin: 0 6px;
 }
 
-.dnd-becmi .items-list .item {
+.dndbecmi .items-list .item {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -399,15 +399,15 @@
   border-bottom: 1px solid #c9c7b8;
 }
 
-.dnd-becmi .items-list .item:last-child {
+.dndbecmi .items-list .item:last-child {
   border-bottom: none;
 }
 
-.dnd-becmi .items-list .item .item-name {
+.dndbecmi .items-list .item .item-name {
   color: #191813;
 }
 
-.dnd-becmi .items-list .item .item-name .item-image {
+.dndbecmi .items-list .item .item-name .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
@@ -417,14 +417,14 @@
   margin-right: 5px;
 }
 
-.dnd-becmi .items-list .item-prop {
+.dndbecmi .items-list .item-prop {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
 
-.dnd-becmi .items-list .items-header {
+.dndbecmi .items-list .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -436,33 +436,33 @@
   font-weight: bold;
 }
 
-.dnd-becmi .items-list .items-header > * {
+.dndbecmi .items-list .items-header > * {
   font-size: 12px;
   text-align: center;
 }
 
-.dnd-becmi .items-list .items-header .item-name {
+.dndbecmi .items-list .items-header .item-name {
   padding-left: 5px;
   text-align: left;
 }
 
-.dnd-becmi .item-formula {
+.dndbecmi .item-formula {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 200px;
   flex: 0 0 200px;
   padding: 0 8px;
 }
 
-.dnd-becmi .effects .item .effect-source,
-.dnd-becmi .effects .item .effect-duration,
-.dnd-becmi .effects .item .effect-controls {
+.dndbecmi .effects .item .effect-source,
+.dndbecmi .effects .item .effect-duration,
+.dndbecmi .effects .item .effect-controls {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
 
-.dnd-becmi .effects .item .effect-controls {
+.dndbecmi .effects .item .effect-controls {
   border: none;
 }
 

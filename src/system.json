@@ -1,5 +1,5 @@
 {
-    "id": "dnd-becmi",
+    "id": "dndbecmi",
     "title": "D&D BECMI Unofficial",
     "description": "Unofficial FVTT implementation of the classic RPG.",
     "version": "0.0.1",
@@ -7,7 +7,7 @@
         "miniumum": 11,
         "verified": 11
     },
-    "url": "https://github.com/NekohimeMusou/dnd-becmi",
+    "url": "https://github.com/NekohimeMusou/dndbecmi",
     "authors": [
         {
             "name": "Nekohime Musou",
@@ -17,10 +17,10 @@
     ],
     "initiative": "1d6",
     "esmodules": [
-        "module/dnd-becmi.mjs"
+        "module/dndbecmi.mjs"
     ],
     "styles": [
-        "styles/dnd-becmi.css"
+        "styles/dndbecmi.css"
     ],
     "languages": [
         {
