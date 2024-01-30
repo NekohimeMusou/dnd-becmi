@@ -4,6 +4,7 @@ import { ACTORMODELS } from "./data-model/actor-models";
 import DndBecmiActorSheet from "./sheet/DndBecmiActorSheet";
 import DndBecmiItemSheet from "./sheet/DndBecmiItemSheet";
 import { templatePaths } from "./config/hbs-templates";
+import { DNDBECMI } from "./config/config";
 
 declare global {
   interface Game {
@@ -12,9 +13,9 @@ declare global {
       DndBecmiItem: typeof DndBecmiItem;
     }
   }
-  
+
   interface CONFIG {
-    DNDBECMI: unknown
+    DNDBECMI: typeof DNDBECMI
   }
 }
 
@@ -29,7 +30,7 @@ Hooks.once("init", async function() {
   }
 
   // Add custom config constants
-  CONFIG.DNDBECMI = {};
+  CONFIG.DNDBECMI = DNDBECMI;
 
   registerDataModels();
   registerDocumentClasses();
@@ -50,7 +51,7 @@ function registerSheetApplications() {
   Actors.unregisterSheet("core", ActorSheet);
   Items.unregisterSheet("core", ItemSheet);
 
-  Actors.registerSheet("dndbecmi", DndBecmiActorSheet, {types: ["pc"], makeDefault: true});
+  Actors.registerSheet("dndbecmi", DndBecmiActorSheet, {types: ["character"], makeDefault: true});
   Items.registerSheet("dndbecmi", DndBecmiItemSheet, {types: ["equipment"], makeDefault: true});
 }
 

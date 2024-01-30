@@ -1,3 +1,36 @@
 {
-    "DNDBECMI": {}
+    "DNDBECMI": {
+        "sheet": {
+            "class": "Class",
+            "abilities": "Ability Scores",
+
+            "coin": "Coin",
+            "carried": "Carried",
+            "stashed": "Stashed"
+        },
+        "abilities": {
+            "str": "Strength",
+            "int": "Intelligence",
+            "wis": "Wisdom",
+            "dex": "Dexterity",
+            "con": "Constitution",
+            "cha": "Charisma"
+        },
+        "classes": {
+            "cleric": "Cleric",
+            "fighter": "Fighter",
+            "magicUser": "Magic-user",
+            "thief": "Thief",
+            "dwarf": "Dwarf",
+            "elf": "Elf",
+            "halfling": "Halfling"
+        },
+        "coin": {
+            "cp": "Copper",
+            "sp": "Silver",
+            "ep": "Electrum",
+            "gp": "Gold",
+            "pp": "Platinum"
+        }
+    }
 }

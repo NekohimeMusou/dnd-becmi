@@ -1,3 +1,3 @@
-import DndBecmiPcData from "./actor/DndBecmiPcData";
+import DndBecmiCharacterData from "./actor/DndBecmiCharacterData";
 
-export const ACTORMODELS = {pc: DndBecmiPcData};
+export const ACTORMODELS = {character: DndBecmiCharacterData};

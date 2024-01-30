@@ -1,8 +1,8 @@
 {
     "Actor": {
-        "types": ["pc"],
+        "types": ["character"],
         "htmlFields": ["description"],
-        "pc": {}
+        "character": {}
     },
     "Item": {
         "types": ["equipment", "ability", "weapon", "armor", "spell", "treasure"],
