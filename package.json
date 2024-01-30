@@ -1,17 +1,22 @@
 {
-  "name": "mw-destiny",
+  "name": "dnd-becmi",
   "version": "1.0.0",
-  "description": "",
-  "main": "module/mw-destiny.mjs",
+  "description": "Unofficial FVTT implementation of the classic RPG.",
+  "private": true,
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -r dist; tsc && copyfiles -u 1 src/**/*.css src/**/*.json src/**/*.webp src/**/*.hbs src/**/*.mp3 dist/ && copyfiles README.md dist/"
   },
   "author": "Nekohime Musou",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NekohimeMusou/dnd-becmi"
+  },
   "license": "MIT",
   "devDependencies": {
-    "@typhonjs-fvtt/eslint-config-foundry.js": "^0.8.0",
-    "eslint": "^8.50.0",
-    "eslint-config-google": "^0.14.0"
-  },
-  "private": true
+    "@types/jquery": "^3.5.29",
+    "copyfiles": "^2.4.1",
+    "typescript": ">=5.3.3"
+  }
 }
